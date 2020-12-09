@@ -19,7 +19,7 @@ draws text
 save method saves image
 '''
 
-import sys 
+import sys
 
 pilsuc = False
 while pilsuc == False:
@@ -39,8 +39,8 @@ else:
     print("Usage: py silence.py [text for meme] - generates \"silence crab\" meme with input text")
     sys.exit()
 
-draw = ImageDraw.Draw(img) 
+draw = ImageDraw.Draw(img)
 
-draw.text((6,60), text, fill="white", font=font) 
+draw.text((6,60), text, fill="white", font=font)
 
 img.save('export.png')
